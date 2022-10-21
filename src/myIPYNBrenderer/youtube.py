@@ -49,6 +49,7 @@ def render_YouTube_video(URL: str, width: int=900, height:int=500)-> str:
         if URL is None:
             raise InvalidURLException("URL cannot be None")
         data = Data(URL).data()
+        
         if data["publishdate"] is not None:
             time = get_time_info(URL)
             vid_ID = data["id"]
@@ -68,5 +69,7 @@ def render_YouTube_video(URL: str, width: int=900, height:int=500)-> str:
             """
             display.display(display.HTML(iframe))
             return "SUCCESS"
+        else:
+            raise InvalidURLException
     except Exception as e:
         raise e
