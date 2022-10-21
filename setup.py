@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as f:
     LONG_DESCRIPTION = f.read()
 
-REPO_NAME = "IPYNBrenderer"
+REPO_NAME = "myIPYNBrenderer"
 AUTHOR_NAME = "Sumegh20" 
 AUTHOR_EMAIL = "sumegh20@gmail.com"
 

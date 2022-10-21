@@ -16,4 +16,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("IPYNBrenderer")
+logger = logging.getLogger("myIPYNBrenderer")
