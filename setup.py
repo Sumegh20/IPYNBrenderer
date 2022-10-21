@@ -9,7 +9,7 @@ AUTHOR_EMAIL = "sumegh20@gmail.com"
 
 setup(
     name = REPO_NAME,
-    version = "0.0.2",
+    version = "0.0.3",
     author = AUTHOR_NAME,
     author_email = AUTHOR_EMAIL,
     description = "A small python package",
