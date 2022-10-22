@@ -27,3 +27,6 @@ def test_get_time_info(URL, responce):
 def test_get_time_info_faild(URL):
     with pytest.raises(InvalidURLException):
         get_time_info(URL)
+
+# run the test using 
+# pytest -v
