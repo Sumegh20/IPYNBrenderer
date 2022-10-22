@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as f:
-    LONG_DESCRIPTION = f.read()
+    LONG_DESCRIPTION = f.readlines()
 
 REPO_NAME = "myIPYNBrenderer"
 AUTHOR_NAME = "Sumegh20" 
@@ -9,7 +9,7 @@ AUTHOR_EMAIL = "sumegh20@gmail.com"
 
 setup(
     name = REPO_NAME,
-    version = "0.0.3",
+    version = "0.0.4",
     author = AUTHOR_NAME,
     author_email = AUTHOR_EMAIL,
     description = "A small python package",
