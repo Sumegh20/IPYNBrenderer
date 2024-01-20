@@ -1,4 +1,3 @@
-from pyrsistent import v
 import pytest
 from myIPYNBrenderer import is_valid_URL
 
